@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-def multi(a,b):
-    print('The sum of {} and {} is {}'.format(a,b,str(int(a) * int(b))))
+def division(a,b):
+    print('The Div of {} and {} is {}'.format(a,b,str(int(a) / int(b))))
 
 if __name__ == '__main__':
-    print('Multiplication operation')
+    print('Division operation')
     multi(input('Enter first no. - '), input('Enter second no. - '))
     #temp
